@@ -35,6 +35,10 @@ router.post('/register', async(req, res)=>{
     }
 });
 
+router.post('/webhook', (req, res)=>{
+    console.log(req.body); 
+    res.status(200).send('Webhook received');
+});
 
 router.post('/authenticate', async (req, res) => {
     const { username, password } = req.body;
