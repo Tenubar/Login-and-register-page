@@ -1,2 +1,2 @@
-Very Simple Login and Register Page for practice.
+Very Simple Login and Register Page, created for practice.
 - Made by Tenubar
